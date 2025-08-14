@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navegação */
+
 .navbar {
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 15px; /* Espaço entre a logo e o átomo */
+    gap: 15px; 
 }
 
 .logo {
@@ -28,10 +28,9 @@ body {
 }
 
 .logo-atom {
-    height: 40px;
+    height: 5rem;
 }
 
-/* Conteúdo */
 main {
     display: flex;
     flex-direction: column;
@@ -39,15 +38,11 @@ main {
     margin-top: 80px;
 }
 
-.titulo {
-    font-size: 60px;
-    font-weight: bold;
-    color: #f9b321;
-    letter-spacing: 4px;
+.ino {
+    margin-top: 10rem;
     margin-bottom: 50px;
 }
 
-/* Botões */
 .btn-jogar {
     background-color: #f9b321;
     color: white;
@@ -60,6 +55,7 @@ main {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    margin-top: 5rem;
 }
 
 .btn-jogar .icon {
